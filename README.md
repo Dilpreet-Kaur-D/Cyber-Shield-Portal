@@ -129,8 +129,7 @@ Python Standard Library
 
 📦 Installation
 1. Clone the Repository
-https://github.com/Dilpreet-Kaur-D/Cyber-Shield-Portal.git
-cd Cyber Shield Portal
+git clone https://github.com/Dilpreet-Kaur-D/Cyber-Shield-Portal.git
 
 2. Create & Activate Environment
 python -m venv env
@@ -143,7 +142,7 @@ pip install -r requirements.txt
 python flask_app.py
 
 5. Run the GUI (Frontend)
-python main_login.py
+python start_app.py
 
 
 🧪 Testing Summary
@@ -160,23 +159,7 @@ python main_login.py
 
 ✓ Role-based access control
 
-🧭 Future Enhancements
 
-Web-based version (Flask/FastAPI + React)
-
-Forgot Password via email OTP
-
-Anti-XSS protection (for web version)
-
-Token blacklisting and advanced session control
-
-Email/SMS OTP instead of console print
-
-Automated analytics using ML
-
-Multilingual UI support
-
-Cloud database integration
 
 📝 Author
 
