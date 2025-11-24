@@ -129,7 +129,7 @@ Python Standard Library
 
 📦 Installation
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/Cyber Shield Portal.git
+https://github.com/Dilpreet-Kaur-D/Cyber-Shield-Portal.git
 cd Cyber Shield Portal
 
 2. Create & Activate Environment
@@ -145,20 +145,6 @@ python flask_app.py
 5. Run the GUI (Frontend)
 python main_login.py
 
-🔑 Login Roles
-Role	Permission
-Student	Submit feedback
-Staff	View department-specific feedback
-Admin	Manage users, view/export all feedback
-🔍 API Overview
-Method	Endpoint	Description
-POST	/register	Register student/admin
-POST	/login	Authenticate + OTP
-POST	/verify_otp	Validate OTP and issue JWT
-POST	/submit_feedback	Submit feedback
-GET	/view_feedback	Staff view feedback
-POST	/add_staff	Admin add staff
-GET	/export_data	Export feedback (Admin)
 
 🧪 Testing Summary
 
@@ -192,6 +178,6 @@ Multilingual UI support
 
 Cloud database integration
 
-📝 Authors
+📝 Author
 
 Dilpreet Kaur – Developer
