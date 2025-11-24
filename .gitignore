@@ -1,0 +1,32 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment-env is real
+
+env/
+venv/
+
+# Ignore database files
+*.db
+
+# Ignore environment files (secrets, API keys)
+.env
+config/secret_config.py
+
+# Flask session files
+instance/
+
+# VS Code config folder
+.vscode/
+
+# Ignore CSV exports or logs
+*.csv
+*.log
+*.tmp
+*.bak
+
+# System files
+Thumbs.db
+desktop.ini
+.DS_Store
